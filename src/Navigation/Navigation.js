@@ -1,7 +1,6 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import { NavLink } from "react-router-dom";
 import "./Navigation.css";
 function Navigation() {
@@ -17,14 +16,9 @@ function Navigation() {
           <Nav>
             <NavLink className={"links"}>About</NavLink>
             <NavLink className={"links"}>Grocery</NavLink>
-            <NavLink className={"links"}>
-              <a
-                href="http://psstrust.org/"
-                style={{ textDecoration: "none", color: "white" }}
-              >
-                Main Page
-              </a>
-            </NavLink>
+            <Nav.Link className={"links"} href="https://psstrust.org/">
+              Main Page
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
