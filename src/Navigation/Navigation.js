@@ -5,17 +5,28 @@ import { NavLink } from "react-router-dom";
 import "./Navigation.css";
 function Navigation() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar
+      className="navbar"
+      collapseOnSelect
+      expand="lg"
+      bg="dark"
+      variant="dark"
+      sticky="top"
+    >
       <Container>
-        <NavLink className={"links"}>
+        <NavLink to={"/"} className={"links"}>
           <Navbar.Brand>PSS</Navbar.Brand>
         </NavLink>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">]</Nav>
+          <Nav className="me-auto"></Nav>
           <Nav>
-            <NavLink className={"links"}>About</NavLink>
-            <NavLink className={"links"}>Grocery</NavLink>
+            <NavLink to={"/about"} className={"links"}>
+              About
+            </NavLink>
+            <NavLink to={"/grocery"} className={"links"}>
+              Grocery
+            </NavLink>
             <Nav.Link className={"links"} href="https://psstrust.org/">
               Main Page
             </Nav.Link>

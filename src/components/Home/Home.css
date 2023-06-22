@@ -7,19 +7,28 @@
 .section1,
 .section2 {
   margin: 15px;
-  padding: 15px;
+  padding: 25px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  color: white;
 }
 
 .desc,
 .details-desc {
   width: 50%;
+  padding: 23px;
+  border-radius: 20px;
+  backdrop-filter: blur(30px);
 }
 
 .slogo {
   width: 18vw !important;
+}
+.heading {
+  text-align: center;
+  padding: 12px;
+  color: white;
 }
 .details {
   width: 50%;
@@ -31,6 +40,14 @@
 }
 
 .details-link {
-  color: black;
+  color: white;
+  background-color: dodgerblue;
+  padding: 8px;
+  border-radius: 6px;
   text-decoration: none;
+}
+.details-link:hover {
+  color: dodgerblue;
+  background-color: white;
+  border: 1px solid dodgerblue;
 }

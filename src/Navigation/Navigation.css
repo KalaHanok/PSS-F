@@ -1,10 +1,16 @@
-.links{
-    padding: 5px;
-    margin-left: 8px;
-    color: white;
-    text-decoration: none;
+.links {
+  padding: 5px;
+  margin-left: 8px;
+  color: white;
+  text-decoration: none;
 }
 
-.links:hover{
-    color: white;
+.links:hover {
+  color: white;
+}
+
+.navbar {
+  padding: 13px;
+  background-color: transparent !important;
+  backdrop-filter: blur(20px);
 }

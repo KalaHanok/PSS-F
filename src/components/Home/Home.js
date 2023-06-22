@@ -9,11 +9,12 @@ const Home = () => {
     <>
       <Navigation />
       <div className="home">
+        <h1 className="heading">
+          POTUKUCHI SOMASUNDARA SOCIAL WELFARE AND CHARITABLE TRUST
+        </h1>
         <div className="section1">
           <div className="desc">
-            <h3 className="heading">
-              POTUKUCHI SOMASUNDARA SOCIAL WELFARE AND CHARITABLE TRUST
-            </h3>
+            <h1 className="heading">About Our Trust</h1>
             <p>
               As it impacted everyone else, the 2020 has been a year of
               challenges and finding solutions for the PSS Trust as well and
@@ -44,30 +45,19 @@ const Home = () => {
         <div className="section2">
           <div className="details">
             <img className="slogo" src={student} alt="logo" />
-            <NavLink className={"details-link"}>Student Details</NavLink>
+            <NavLink to="/std-details" className={"details-link "}>
+              Check Your Details
+            </NavLink>
           </div>
           <div className="details-desc">
+            <h1 className="heading">Student Details</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-              sequi minima at ratione ipsam soluta voluptatum animi, fugiat
-              nostrum. Nam ducimus natus quisquam esse veritatis. Lorem ipsum
-              dolor sit amet consectetur adipisicing elit. Error sequi minima at
-              ratione ipsam soluta voluptatum animi, fugiat nostrum. Nam ducimus
-              natus quisquam esse veritatis.
+              “The man who does not read books has no advantage over the one who
+              cannot read them.” —<b>Mark Twain</b>
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-              sequi minima at ratione ipsam soluta voluptatum animi, fugiat
-              nostrum. Nam ducimus natus quisquam esse veritatis. sequi minima
-              at ratione ipsam soluta voluptatum animi, fugiat nostrum. Nam
-              ducimus natus quisquam esse veritatis.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-              sequi minima at ratione ipsam soluta voluptatum animi, fugiat
-              nostrum. Nam ducimus natus quisquam esse veritatis. sequi minima
-              at ratione ipsam soluta voluptatum animi, fugiat nostrum. Nam
-              ducimus natus quisquam esse veritatis.
+              “Education is the passport to the future, for tomorrow belongs to
+              those who prepare for it today.” —<b>Malcolm X</b>
             </p>
           </div>
         </div>
