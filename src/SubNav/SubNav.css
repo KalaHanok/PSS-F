@@ -1,0 +1,17 @@
+.subNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 12px;
+}
+
+.subDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 13px;
+}
+
+.subNavLinks {
+  background-color: dodgerblue;
+}
