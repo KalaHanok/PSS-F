@@ -4,13 +4,13 @@
   gap: 25px;
 }
 
-.section1,
-.section2 {
+.home-section1,
+.home-section2 {
   margin: 15px;
   padding: 25px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   color: white;
 }
 

@@ -14,4 +14,11 @@
 
 .subNavLinks {
   background-color: dodgerblue;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.subNavLinks:hover {
+  background-color: transparent;
+  border: 1px solid dodgerblue;
 }

@@ -12,7 +12,7 @@ const Home = () => {
         <h1 className="heading">
           POTUKUCHI SOMASUNDARA SOCIAL WELFARE AND CHARITABLE TRUST
         </h1>
-        <div className="section1">
+        <div className="home-section1">
           <div className="desc">
             <h1 className="heading">About Our Trust</h1>
             <p>
@@ -42,7 +42,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="section2">
+        <div className="home-section2">
           <div className="details">
             <img className="slogo" src={student} alt="logo" />
             <NavLink to="/std-details" className={"details-link "}>
