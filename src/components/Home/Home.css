@@ -19,7 +19,17 @@
   width: 50%;
   padding: 23px;
   border-radius: 20px;
-  backdrop-filter: blur(30px);
+  background: linear-gradient(
+    135deg,
+    rgba(99, 96, 96, 0.7),
+    rgba(99, 96, 96, 0.3)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(28, 160, 41, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  color: white;
 }
 
 .slogo {

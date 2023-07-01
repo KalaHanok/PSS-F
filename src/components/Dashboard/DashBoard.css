@@ -1,10 +1,20 @@
 .dashboard {
   color: white;
+  width: 100%;
 }
 .part1,
 .part2 {
-  backdrop-filter: blur(12px);
-  /* background-color: #000; */
+  background: linear-gradient(
+    135deg,
+    rgba(106, 81, 81, 0.7),
+    rgba(160, 81, 81, 0.3)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(28, 160, 41, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  color: white; /* background-color: #000; */
   border-radius: 20px;
   margin: 34px;
   display: flex;

@@ -1,0 +1,86 @@
+.attendance {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+}
+
+.attendance-block {
+  background: linear-gradient(
+    135deg,
+    rgba(0, 255, 0, 0.7),
+    rgba(0, 255, 0, 0.3)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(28, 160, 41, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  color: white;
+  width: 20vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.attendance-block > img,
+.attendance-block1 > img,
+.attendance-block2 > img {
+  width: 4rem;
+}
+
+.big {
+  font-size: 28px;
+  text-align: center;
+}
+
+.small {
+  font-size: 30px;
+  text-align: start;
+}
+
+.attendance-block1 {
+  background: linear-gradient(
+    135deg,
+    rgba(31, 60, 207, 0.7),
+    rgba(31, 60, 207, 0.3)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(28, 160, 41, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  color: white;
+  width: 20vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 34px;
+}
+.attendance-block2 {
+  background: linear-gradient(
+    135deg,
+    rgba(224, 215, 163, 0.7),
+    rgba(255, 215, 0, 0.3)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(28, 160, 41, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  color: white;
+  width: 20vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 34px;
+}

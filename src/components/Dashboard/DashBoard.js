@@ -1,11 +1,7 @@
 import "./DashBoard.css";
-import Navigation from "../../Navigation/Navigation";
-import SubNav from "../../SubNav/SubNav";
 const DashBoard = () => {
   return (
     <>
-      <Navigation />
-      <SubNav />
       <div className="dashboard">
         <div className="part1">
           <img
@@ -20,7 +16,7 @@ const DashBoard = () => {
 
         <div className="part2">
           <div className="subpart1">
-            <h1 style={{ borderBottom: "3px solid : white" }}>
+            <h1 style={{ borderBottom: "3px solid  white" }}>
               Personal Information
             </h1>
             <div className="form-group">
@@ -42,7 +38,9 @@ const DashBoard = () => {
           </div>
 
           <div className="subpart2">
-            <h1 style={{ borderBottom: "3px solid white" }}>Trust Info: </h1>
+            <h1 style={{ borderBottom: "3px solid white" }}>
+              Education Info:{" "}
+            </h1>
             <div className="form-group">
               <label>School Name</label>
               <input type="text" className="input" readOnly value={""} />

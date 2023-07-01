@@ -4,10 +4,9 @@ import SubNav from "../../SubNav/SubNav";
 
 const StudentDetails = () => {
   return (
-    <div>
+    <div className="std-details">
       <Navigation />
       <SubNav />
-      Student Details
     </div>
   );
 };
