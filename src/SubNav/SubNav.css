@@ -16,10 +16,16 @@
 .subNavLinks {
   background-color: dodgerblue;
   border-radius: 12px;
+  font-weight: 600;
   padding: 12px;
 }
 
 .subNavLinks:hover {
+  background-color: transparent;
+  border: 1px solid dodgerblue;
+}
+
+.subDiv > .active {
   background-color: transparent;
   border: 1px solid dodgerblue;
 }

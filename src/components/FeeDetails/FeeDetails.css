@@ -1,4 +1,20 @@
 .fee-details {
   width: 100%;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  margin: 12px;
+}
+.fee-section {
+  width: 50vw;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.2)
+  );
+  border-radius: 0.5rem;
+  backdrop-filter: blur(12px);
+  padding: 18px;
 }
