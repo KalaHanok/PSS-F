@@ -1,5 +1,19 @@
+import { useEffect } from "react";
 import "./DashBoard.css";
+import axios from "axios";
+
 const DashBoard = () => {
+  useEffect(() => {
+    console.log(`AccessToken: ${localStorage.getItem("token")}`);
+    const fetchUser = async () => {
+      const res = await axios.get("127.0.0.1:8000/api/profileinfo/", {
+        headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
+      });
+      console.log(res.data);
+    };
+    fetchUser();
+  }, []);
+
   return (
     <>
       <div className="dashboard">

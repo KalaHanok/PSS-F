@@ -9,12 +9,14 @@ import FeeDetails from "./components/FeeDetails/FeeDetails";
 import StudentDetails from "./components/StudentDetails/StudentDetails";
 import DashBoard from "./components/Dashboard/DashBoard";
 import Login from "./components/Login/Login";
+import AddStudent from "./components/AddStudent/AddStudent";
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/login" element={<Login />} />
+        <Route path="/add-std" element={<AddStudent />} />
         <Route path="" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/grocery" element={<Grocery />} />
