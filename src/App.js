@@ -10,6 +10,7 @@ import StudentDetails from "./components/StudentDetails/StudentDetails";
 import DashBoard from "./components/Dashboard/DashBoard";
 import Login from "./components/Login/Login";
 import AddStudent from "./components/AddStudent/AddStudent";
+import AddAttendance from "./components/AddAttendance/AddAttendance";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/grocery" element={<Grocery />} />
+        <Route path="/add-att" element={<AddAttendance />} />
         <Route path="std-details" element={<StudentDetails />}>
           <Route index element={<DashBoard />} />
           <Route path="dashboard" element={<DashBoard />} />

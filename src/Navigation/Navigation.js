@@ -27,6 +27,9 @@ function Navigation() {
             <NavLink to={"/grocery"} className={"links"}>
               Grocery
             </NavLink>
+            <NavLink to={"/add-att"} className={"links"}>
+              Add Attendance
+            </NavLink>
             <Nav.Link className={"links"} href="https://psstrust.org/">
               Main Page
             </Nav.Link>
